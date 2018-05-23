@@ -93,7 +93,7 @@ export default class MapWithClustering extends Component {
 
   getBoundsZoomLevel = (bounds, mapDim) => {
     const WORLD_DIM = { height: mapDim.height, width: mapDim.width };
-    const ZOOM_MAX = 100;
+    const ZOOM_MAX = 21;
 
     function latRad(lat) {
       const sin = Math.sin(lat * Math.PI / 180);
